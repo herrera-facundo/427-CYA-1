@@ -1,0 +1,56 @@
+# Sprint 5 Report (2/17-3/15)
+
+## YouTube link of Sprint 5 Video
+ * https://youtu.be/h0O_wQBBXy8
+
+## What's New (User Facing)
+* Polished user registration experience
+* Improved course and file creation views
+* Improved dashboard user interface
+* Downloadable app release created
+* General frontend polish and usability improvements
+
+## Work Summary (Developer Facing)
+During Sprint 5, the team focused on preparing the application for deployment and improving the overall user experience. The backend architecture was restructured to better support future features and improve maintainability. Additionally, the frontend was refined to create a more polished and user-friendly interface across core areas such as registration, course creation, and the dashboard.
+
+A major milestone during this sprint was creating a downloadable application release, allowing users to install and run the app more easily. The team also began transitioning toward AWS hosting in preparation for live deployment. These improvements move the application closer to a production-ready state and establish a stronger foundation for future scaling and feature expansion.
+
+## Unfinished Work
+Some planned deployment-related work remains incomplete. The migration to AWS hosting has begun but is still in progress. Additionally, the recommendation and progress tracking systems are still under development and will require further implementation in upcoming sprints.
+
+Further testing is also needed for hosting the application and preparing it for deployment on mobile application stores.
+
+## Completed Issues/User Stories
+Here are links to the issues that we completed in this sprint:
+
+ * [URL of issue 1](https://github.com/herrera-facundo/Project-Prometheus/issues/46)
+ * [URL of issue 2](https://github.com/herrera-facundo/Project-Prometheus/issues/74)
+ * [URL of issue 3](https://github.com/herrera-facundo/Project-Prometheus/issues/59)
+ * [URL of issue 4](https://github.com/herrera-facundo/Project-Prometheus/issues/78)
+ 
+ ## Incomplete Issues/User Stories
+ Here are links to issues we worked on but did not complete in this sprint:
+ 
+ * [URL of issue 1](https://github.com/herrera-facundo/Project-Prometheus/issues/78) <<APK for download, waiting for AWS integration>>
+ * [URL of issue 2](https://github.com/herrera-facundo/Project-Prometheus/issues/79) <<Synching calendar data with Google Calendar>>
+
+## Code Files for Review
+Please review the following code files, which were actively developed during this sprint, for quality:
+ * [code/frontend/zuno/app](https://github.com/herrera-facundo/Project-Prometheus/tree/main/code/frontend/zuno/app): This is the main folder that contains the frontend code for the main screen implementations.
+ * [code/backend](https://github.com/herrera-facundo/Project-Prometheus/tree/main/code/backend): This is the main folder that contains the backend code for the app.
+
+## Retrospective Summary
+Here's what went well:
+  * Significant frontend polish and usability improvements
+  * Successful creation of a downloadable app release
+  * Major progress toward deployment readiness
+ 
+Here's what we'd like to improve:
+   * Better planning for large backend architectural changes
+   * More extensive testing during major infrastructure updates
+   * Earlier preparation for deployment environments
+  
+Here are changes we plan to implement in the next sprint:
+   * Complete AWS hosting and deployment setup
+   * Implement recommendation and progress tracking system
+   * Expand testing for hosted environments and app store distribution

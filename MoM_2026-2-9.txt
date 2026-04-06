@@ -1,0 +1,31 @@
+2/9/2026 - Online General Team Meeting
+
+Attendees:
+Client – Dr. Tiffany Reiss
+Team – Alex Gustafson, Josh Santiago, Facundo Herrera, Jake van Halder, Ethan Knigge
+
+Summary:
+
+We began the meeting by sharing general Sprint 4 progress. We explained that the app now includes persistent user registration and login, persistent course creation, persistent study material storage, and a working calendar page where users can manually add homework and exam events with descriptions. The client was pleased with the transition to a more stable, production-ready system. We also discussed future automation plans, including syllabus parsing and smart study recommendations.
+
+The second part of the meeting focused on the Idaho Entrepreneurship Challenge. The client helped us apply and refine our responses. We completed the application together during the meeting.
+
+Key points from the application discussion:
+
+Zuno is described as an AI-powered organization and study tool. The core problem we identified is that students are overwhelmed by scattered assignments, deadlines, and study materials. Zuno aims to centralize organization and automatically generate personalized study aids directly from course content.
+
+Our ideal customers are high school and undergraduate students managing multiple responsibilities. They would pay because the app saves time, reduces stress, prevents missed deadlines, and improves academic performance.
+
+We discussed our competitive advantage: we are students building a tool specifically for students. The product focuses on seamless integration with tools like Canvas and Google Calendar, smart study planning, and automated reminders.
+
+We noted that development of an MVP is almost complete and we are refining features for broader release. Revenue would be generated through a tiered subscription model.
+
+The client provided feedback on clearly communicating the value proposition, emphasizing time savings, stress reduction, and measurable academic improvement.
+
+Next Steps:
+
+Continue feature refinement for mass release
+
+Move forward with Idaho Entrepreneurship Challenge submission
+
+Continue development of automation and recommendation features
