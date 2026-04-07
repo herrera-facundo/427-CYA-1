@@ -1,197 +1,49 @@
-# Project Prometheus — Zuno App
+# CYA 1 Repo README
 
-Project Prometheus, officially titled "Zuno", is a mobile application designed to revolutionize student learning by leveraging artificial intelligence to transform course materials and assignments into personalized study aids.
+# Career Development Experience – Startup Pitch Competition
 
-# **Project Prometheus**
+## Adventure Description
 
-## **Overview**
+For this career development experience, I participated in a startup pitch competition to present an application I am developing during my senior capstone project. The application is being developed for an external client, and the goal of attending the competition was to explore potential funding opportunities, gather feedback from experienced judges, and evaluate the possibility of continuing development beyond graduation.
 
-Zuno is an intelligent **AI-powered study aid app** designed to help students learn more efficiently.
-The system leverages **machine learning and natural language processing (NLP)** to:
+The pitch competition took place over two days and involved presenting the concept, functionality, and potential impact of the application to a panel of judges, investors, and other participants. The event provided an opportunity to communicate both the technical and practical value of the project to a professional audience.
 
-- Generate personalized study resources from course materials and lecture notes.
-- Recommend study decks based on user progress, deadlines, and performance.
-- Track learning over time and adapt to the user’s strengths and weaknesses.
+## Career Goals
 
-The project consists of:
+My short-term career goal is to do a Master's in CS and SWE. I aim to apply my academic training to real-world problems and gain experience developing scalable and impactful software solutions.
 
-- A **React Native mobile frontend** (cross-platform for Android and iOS using Expo).
-- A **FastAPI backend**.
-- A **PostgreSQL database** for storing user data, study decks, and progress.
-- **Gemini integration** to generate study materials dynamically.
+My long-term goal is to contribute to meaningful technological innovation and potentially participate in or build technology startups that solve real-world problems. Experiences that combine technical development with entrepreneurship are especially valuable in helping me build the necessary technical, communication, and strategic skills.
 
----
+## Context: Capstone Client Project
 
-## **Tech Stack**
+As part of my capstone course, my team is developing a software application for an external client. The project involves designing and implementing an application that helps students learn using the power of AI and teaching techniques. I can't discuss too many details regarding the app itself, nor share the repository (which is private) due to IP reasons.
 
-| Layer                  | Technology                          |
-| ---------------------- | ----------------------------------- |
-| **Frontend (Mobile)**  | React Native (Expo)                 |
-| **Backend (API)**      | FastAPI                             |
-| **Database**           | PostgreSQL                          |
-| **AI Services**        | Gemini API                          |
-| **Version Control**    | Git + GitHub                        |
-| **Deployment (Later)** | Render or local tunneling via Ngrok |
+During the development process, we identified potential commercial and professional opportunities for the project. As a result, we participated in a pitch competition to present the application to investors and receive professional feedback about the viability and future development of the project.
 
-## **Setup Instructions**
+## Pitch Competition Experience
 
-### **1. Prerequisites**
+During the competition, we presented the core problem the application addresses, demonstrated the proposed solution, and discussed its potential impact. The event included interactions with judges and attendees who asked questions about the system’s functionality, scalability, and potential real-world adoption.
 
-Make sure you have the following installed on your system:
+This experience required translating technical work into a clear and compelling narrative that could be understood by both technical and non-technical audiences.
 
-| Tool                                      | Required Version                                 |
-| ----------------------------------------- | ------------------------------------------------ |
-| [FastAPI](https://fastapi.tiangolo.com/)  | 0.121.2 or later                                 |
-| [npm](https://www.npmjs.com/)             | 9.x or later                                     |
-| [PostgreSQL](https://www.postgresql.org/) | 15 or later                                      |
-| [Git](https://git-scm.com/)               | Latest                                           |
-| [Expo CLI](https://docs.expo.dev/)        | Installed globally via `npm install -g expo-cli` |
+We managed to secure an investor who is willing to help with the realization of the idea, which opens possibilities to full-time employment by the client.
 
----
+## Deliverable Summary
 
-### **2. Clone the Repository**
+This repository documents the materials and reflections associated with this career development experience. Due to intellectual property considerations related to the client project and potential commercialization, certain materials and technical details are not publicly disclosed.
 
-```bash
-git clone https://github.com/herrera-facundo/Project-Prometheus.git
-cd Project-Prometheus
-```
+## Time Commitment
 
----
+Estimated time spent on this activity:
 
-### **3. Backend Setup**
+Preparation of pitch materials – ~2 hours
+Team practice and presentation preparation – ~2 hours
+Participation in pitch competition – ~5 hours
 
-**Location:** `code/backend`
+Total time: ~9 hours
 
-1. Navigate to the backend folder:
+## Repository Visibility
 
-   ```bash
-   cd code/backend
-   ```
+The project involves a client-sponsored application with potential commercial value, and the team is currently exploring professional opportunities related to the project after graduation.
 
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Create a `.env` file:
-
-   ```bash
-   touch .env
-   ```
-
-4. Start the backend:
-
-   ```bash
-   npm run dev
-   ```
-
-   > Your API should now be live at `http://localhost:5000`.
-
----
-
-### **4. Frontend Setup**
-
-**Location:** `code/frontend/zuno`
-
-1. Navigate to the frontend folder:
-
-```bash
-cd .\code\frontend\zuno\
-```
-
-2. Download project packages (npm):
-
-```bash
-npm i
-```
-
-3. Create a `.env` file under the `zuno/` root folder with the following content:
-
-```bash
-EXPO_PUBLIC_API_URL=<your_ip_address>:8000
-```
-
-4. Start the dev server (Metro / Expo):
-
-```bash
-npm start
-```
-
-5. Launch App:
-
-- **Android device/emulator**: with the dev server running press a in the terminal, or run:
-
-```bash
-npm run android
-```
-
-- **iOS device/emulator**: with the dev server running press i on the terminal, or run:
-
-```bash
-npm run ios
-```
-
-- **Physical device**: scan the QR code shown by Expo using the Expo Go app.
-
----
-
-## **Running the Full Stack**
-
-1. Open **two terminal windows**:
-
-   - **Window 1 (Backend):**
-
-     ```bash
-     cd code/backend
-     npm run dev
-     ```
-
-   - **Window 2 (Frontend):**
-
-     ```bash
-     cd code/frontend
-     npx expo start
-     ```
-
-2. Verify everything works:
-
-   - API is reachable at `http://localhost:5000/ping`.
-   - Frontend shows the mock decks for now.
-
----
-
-## **Team Roles and Responsibilities**
-
-Facundo Herrera Rivarola: Team lead.
-Jake van Halder: Frontend lead.
-Ethan Knigge: Backend lead.
-Josh Anthony Santiago: AI lead.
-
-**Folders**
-
-`code` _Contains the frontend and backend code for Zuno_
-
-`docs` _The documents and videos produced during the development of Zuno_
-
-`resources` _Resources used to aid in the development of Zuno_
-
-`tests` _Code used to test Zuno_
-
-**Current Progress**
-
-`Sprint 1`:
-
-- Clear Functional and Non-Functional Requirements
-- Documentation of User Stories, Use Cases, and UML Diagrams
-- Identified skills needed to learn and skills already learned
-- Required Software Decided and Installed
-- Created Kanban Board with completed and some future tasks listed
-- Created basic demo of the application without AI integration yet
-
-`Sprint 2`:
-
-- AI quiz generation and file handling
-- File upload for course materials
-- Backend structure and architecture
-- Working UI prototype based on high-fidelity wireframes
+For this reason, sensitive technical details, source code, and proprietary materials are not included in this repository.
